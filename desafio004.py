@@ -1,0 +1,7 @@
+valor = input('Digite um valor:')
+print('valor, é do tipo', type(valor))
+print('valor, possui apenas números?' , valor.isnumeric())
+print('valor, possui apenas letras?' , valor.isalpha())
+print('valor, possui todas as letras em capslock?' , valor.isupper())
+print('valor, possui letra ou número?', valor.isalnum())
+print('valor, possui apenas letras minúsculas?' , valor.islower())
